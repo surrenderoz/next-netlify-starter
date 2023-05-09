@@ -1,0 +1,40 @@
+.customform {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 600px;
+        background: white;
+        margin: auto;
+    
+}
+.customform input {
+    padding: 10px;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: 1px solid white;
+    color: black;
+    font-size: 14px;
+    box-shadow: 0px 1px 2px 1px #b3b3b3;
+    font-weight: 600;
+}
+.customform input::placeholder {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+.customform textarea {
+    height: 100px!important;
+    color: black;
+
+    background: transparent;
+    box-shadow: 0px 1px 2px 1px #b3b3b3;
+}
+.customform textarea::placeholder {
+    color: black!important;
+}
+.text {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
