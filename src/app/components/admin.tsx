@@ -46,8 +46,11 @@ export default function Admin() {
         try {
             const docRef = await addDoc(collection(db, "products"), newData);
             console.log("Document written with ID: ", docRef.id);
+            alert('Product Added')
           } catch (e) {
             console.error("Error adding document: ", e);
+            alert('something went wrong')
+
           }
           
     }
