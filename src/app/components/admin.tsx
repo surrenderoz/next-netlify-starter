@@ -31,7 +31,8 @@ export default function Admin() {
             let formData = {
                 "productName": data.current[0].value,
                 "productType": data.current[1].value,
-                "amount": data.current[2].value,
+                "desciption": data.current[2].value,
+                "amount": data.current[3].value,
                 "image": img
             }
             storeToFb(formData)
